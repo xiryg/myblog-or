@@ -39,8 +39,7 @@ code_word_wrap: false
 social:
   fab fa-github: https://github.com/xiryg || Github || '#24292e'
   fas fa-envelope: mailto:xry102410@gmail.com || Email || '#4a7dbe'
-  iconfont icon-youjian : mailto:2095378138@qq.com || Email
-  iconfont icon-QQ : tencent://message/?uin=2105095848&Site=Sambow&Menu=yes || QQ
+  fab fa-qq: tencent://message/?uin=209578138 || QQ || '#66b1ff'
 # Image (圖片設置)
 # --------------------------------------
 
@@ -240,7 +239,7 @@ aside:
       link: https://github.com/xiryg
   card_announcement:
     enable: true
-    content: This is my Blog
+    content: 随缘更新，有问题联系我！！！
   card_recent_post:
     enable: true
     limit: 5 # if set 0 will show all
@@ -351,7 +350,7 @@ rightside_item_order:
 # MathJax
 mathjax:
   enable: true
-  per_page: false
+  per_page: true
 
 # KaTeX
 katex:

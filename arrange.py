@@ -25,7 +25,7 @@ def main():
     current_directory = os.path.dirname(os.path.abspath(__file__))
 
     # 设置博客目录为绝对路径
-    blog_directory = r'D:\Xiryg_Blog - 副本\myblog_source'
+    blog_directory = r'd:\Xiryg_Blog_github\myblog-or'
 
     commands = [
         ['hexo', 'clean'],
@@ -51,6 +51,7 @@ def main():
 
     # 源码提交仓库代码
     # 执行 git 命令
+    
     returncode, stdout, stderr = execute_command('git add --all')
     if returncode != 0:
         print('Error executing command: git add --all')
@@ -66,6 +67,13 @@ def main():
     else:
         print('Success executing command: git commit -m "update"')
         print(stdout)
+    returncode, stdout, stderr = execute_command('git pull origin main')
+    if returncode != 0:
+        print('Error executing command: git pull origin main')
+        print(stderr)
+    else:
+        print('Success executing command: git pull origin main')
+        print(stdout)
 
     returncode, stdout, stderr = execute_command('git push origin main')
     if returncode != 0:
@@ -73,7 +81,7 @@ def main():
         print(stderr)
     else:
         print('Success executing command: git push origin main')
-        print(stdout)
+        print(stdout)    
     
 
 if __name__ == '__main__':
