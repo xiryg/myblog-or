@@ -940,9 +940,9 @@ css_prefix: true
 inject:
   head:
     # - <link rel="stylesheet" href="/xxx.css">
-    - <link rel="stylesheet" href="/css/myStyle.css">
     - <link rel="stylesheet" href="/css/modify.css">
     - <link rel="stylesheet" href="/css/cat.css">
+    - <link rel="stylesheet" href="/css/myStyle.css">
     - <link rel="stylesheet" href="/css/fontSetting1.css">
     - <link rel="stylesheet" href="/css/fontSetting.css">
     - <link rel="stylesheet" href="/css/modify.css">

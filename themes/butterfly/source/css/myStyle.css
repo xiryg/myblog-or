@@ -4,14 +4,6 @@
 	background-image: url(https://img.tucang.cc/api/image/show/4952eb2030f8897e3b349bfbcb6f26a8),
 		linear-gradient(60deg, rgba(34, 0, 51, 0.5) 5%, rgba(192, 192, 192, 0.35))
 }
-.history_slide {
-	text-align: left;
-	font-size: 14px;
-	background: rgba(251, 249, 249, 0.8) !important;
-	display: flex;
-	flex-direction: column;
-	align-items: flex-start;
-  }
 
 /* 侧边栏个人信息卡片动态渐变色 */
 #aside-content > .card-widget {
@@ -80,11 +72,9 @@
 
 /* 侧边栏悬浮时 */
 #aside-content > .sticky_layout > .card-widget {
-	background: rgba(251, 249, 249, 0.8);
+	background: rgba(192, 192, 192, 0.8);
 }
 
-
-  
 /* 文章页面 */
 .layout > #post {
 	background: rgba(192, 192, 192, 1);
@@ -122,4 +112,3 @@
     -ms-transition: none!important;
     -o-transition: none!important;
 }
-
