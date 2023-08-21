@@ -24,6 +24,8 @@
     "hexo-generator-index": "^3.0.0",
     "hexo-generator-searchdb": "^1.4.1",
     "hexo-generator-tag": "^2.0.0",
+    "hexo-githubcalendar": "^1.2.3",
+    "hexo-history-calendar": "^1.0.3",
     "hexo-renderer-ejs": "^2.0.0",
     "hexo-renderer-kramed": "^0.1.4",
     "hexo-renderer-pug": "^3.0.0",

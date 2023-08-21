@@ -10,9 +10,10 @@ nav:
 # Menu 目錄
 menu:
   首页: / || fas fa-home
-  时间轴: /archives/ || fas fa-archive
-  标签: /tags/ || fas fa-tags
-  分类: /categories/ || fas fa-folder-open
+  文章||fas fa-file:
+    归档: /archives/ || fas fa-archive
+    标签: /tags/ || fas fa-tags
+    分类: /categories/ || fas fa-folder-open
   清单||fas fa-list:
     音乐: /songs/ || fas fa-music
     照片: /Gallery/ || fas fa-images
@@ -939,9 +940,9 @@ css_prefix: true
 inject:
   head:
     # - <link rel="stylesheet" href="/xxx.css">
+    - <link rel="stylesheet" href="/css/myStyle.css">
     - <link rel="stylesheet" href="/css/modify.css">
     - <link rel="stylesheet" href="/css/cat.css">
-    - <link rel="stylesheet" href="/css/myStyle.css">
     - <link rel="stylesheet" href="/css/fontSetting1.css">
     - <link rel="stylesheet" href="/css/fontSetting.css">
     - <link rel="stylesheet" href="/css/modify.css">
