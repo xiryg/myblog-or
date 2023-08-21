@@ -49,5 +49,32 @@ def main():
     else:
         print('Deployment failed')
 
+    # 源码提交仓库代码
+    # 执行 git 命令
+    returncode, stdout, stderr = execute_command('git add --all')
+    if returncode != 0:
+        print('Error executing command: git add --all')
+        print(stderr)
+    else:
+        print('Success executing command: git add --all')
+        print(stdout)
+
+    returncode, stdout, stderr = execute_command('git commit -m "update"')
+    if returncode != 0:
+        print('Error executing command: git commit -m "update"')
+        print(stderr)
+    else:
+        print('Success executing command: git commit -m "update"')
+        print(stdout)
+
+    returncode, stdout, stderr = execute_command('git push origin main')
+    if returncode != 0:
+        print('Error executing command: git push origin main')
+        print(stderr)
+    else:
+        print('Success executing command: git push origin main')
+        print(stdout)
+    
+
 if __name__ == '__main__':
     main()

@@ -1,13 +1,13 @@
 ---
-title: cs61a -高阶函数
-tags: CS61a
+title: 作为参数的函数
+tags: 高阶函数
 cover: 'https://img.tucang.cc/api/image/show/4070078c4876eed8700b2bf55aca0ac4'
 categories: cs61a
 abbrlink: e5fa646
-date: 2023-08-09 21:04:51
+date: 2023-08-09 21:04:01
 ---
 
-# 高阶函数
+# 作为参数的函数
 
 
 <div style="background-color: #ffffe0; border: 1px solid #ccc; padding: 10px; border-radius: 5px;">
@@ -107,7 +107,11 @@ def <name>(n):
 
 这种通用模板的存在是一个强有力的证据 → 表明了有一个实用的抽象手段正在“浮出水面”。这些函数都是用于求出各项的总和。作为程序设计者，我们希望我们的语言足够强大，以便我们可以编写一个表达“求和”概念的函数，而不仅仅是一个计算特定和的函数。在 Python 中，我们可以很轻易地做到这一点，方法就是使用上面展示的通用模板，并将“槽位”转换为形式参数：
 
-在下面的示例中，`summation` 函数将上界 `n` 和计算第 `k` 项的函数 `term` 作为其两个参数。我们可以像使用任何函数一样使用 `summation` ，它简洁地表达了求和。花点时间单步调试（step through）走完这个示例，注意函数如何将 `cube` 绑定到局部名称 `term` 上以确保 1×1×1+2×2×2+3×3×3=361\times 1\times 1 + 2\times 2\times 2 + 3\times 3\times 3 = 361×1×1+2×2×2+3×3×3=36 计算结果正确。
+在下面的示例中，`summation` 函数将上界 `n` 和计算第 `k` 项的函数 `term` 作为其两个参数。我们可以像使用任何函数一样使用 `summation` ，它简洁地表达了求和。花点时间单步调试（step through）走完这个示例，注意函数如何将 `cube` 绑定到局部名称 `term` 上以确保
+$$
+1 * 1*1+2*2*2+3*3*3=36
+$$
+正确。
 
 <iframe width="800" height="500" frameborder="0" src="https://pythontutor.com/iframe-embed.html#code=def%20summation%28n,%20term%29%3A%0A%20%20%20%20total,%20k%20%3D%200,%201%0A%20%20%20%20while%20k%20%3C%3D%20n%3A%0A%20%20%20%20%20%20%20%20total,%20k%20%3D%20total%20%2B%20term%28k%29,%20k%20%2B%201%0A%20%20%20%20return%20total%0A%0Adef%20cube%28x%29%3A%0A%20%20%20%20return%20x*x*x%0A%0Adef%20sum_cubes%28n%29%3A%0A%20%20%20%20return%20summation%28n,%20cube%29%0A%0Aresult%20%3D%20sum_cubes%283%29&codeDivHeight=400&codeDivWidth=350&cumulative=true&curInstr=0&heapPrimitives=true&origin=opt-frontend.js&py=3&rawInputLstJSON=%5B%5D&textReferences=false"> </iframe>
 
@@ -137,3 +141,13 @@ def <name>(n):
 ```
 
 我们可以通过定义函数 `pi_term` 来计算每一项，从而使用求和抽象来定义` pi_sum`。我们传递参数 `1e6`（1 * 10^6 = 1000000 的简写）来生成 `π `的近似值。
+
+```python
+>>> def pi_term(x):
+        return 8 / ((4*x-3) * (4*x-1))
+>>> def pi_sum(n):
+        return summation(n, pi_term)
+>>> pi_sum(1e6)
+3.141592153589902
+```
+

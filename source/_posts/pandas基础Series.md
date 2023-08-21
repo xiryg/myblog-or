@@ -6,20 +6,16 @@ categories: 数据分析
 abbrlink: a288cc11
 date: 2023-08-02 21:00:13
 ---
-
 ## **pandas基础之series**
 
-#### "数据"放在哪里 ?
 
-数据放在"表"里 ,比如 csv, excel, txt, 这些数据都有一个特点,  有行有列,**所以要针对这些数据进行分析,必须得从最小单元入手, 比如 :  行 , 列  ,这个问题就是我们今天要探讨的问题 .**
-
-<!-- more -->
 
 #### 简介
 
 怎么去处理我们所说的最小单位**行和列 ?**
 
-pandas是一个强大的分析结构化数据的工具集 ,也是一个软件包,该工具是为了解决数据分析任务而创建的。**pandas提供了大量能使我们快速便捷地处理数据的函数和方法**。你很快就会发现，它是使Python成为强大而高效的数据分析环境的重要因素之一,它在数据分析中**贯穿始终** 。
+pandas是一个强大的分析结构化数据的工具集 ,也是一个软件包,该工具是为了解决数据分析任务而创建的。**pandas提供了大量能使我们快速便捷地处理数据的函数和方法**。你很快就会发现，它是使Python成为强大而高效的数据分析环境的重要因素之一,它在数据分析中**贯穿始终** 
+
 
 
 **问题1:**
@@ -28,6 +24,7 @@ pandas是一个强大的分析结构化数据的工具集 ,也是一个软件包
 
 - 那么形成行和列的表 在pandas中用什么来表示呢  ? 
 
+  
 
 #### pandas的数据结构
 
@@ -52,9 +49,9 @@ pandas是一个强大的分析结构化数据的工具集 ,也是一个软件包
 
 
 
-- **最小的单元行和列开始 行或者列   >>   表 >>   表中的数据进行清洗   >>   可视化**    
+- **最小的单元行和列开始  行或者列   >>   表 >>   表中的数据进行清洗   >>   可视化**    
 
-
+  
 
 那么我们开始操作一下 行和列的吧 
 
@@ -253,7 +250,7 @@ s.isnull()
 
 空就是空，它不是整型，不是浮点型，也不是字符串，就是一个NoneType。所以在使用len(None)时候会报错，因为NoneType没有字符串才有的方法。
 
-xxxxxxxxxx import pandas as pdimport  numpy as np ​df  = pd.read_csv('./scientists.csv')df.head()df.tail()df.dtypesdf.infodf.indexdf.columnsdf.valuesdf.shape# df.set_index('Name')# df.set_index('Name').reset_index()  # 还原 # df.reset_index(drop = True)  #  在原来的索引乱序的前提时候用  drop =  True   series的时候已经讲过 ​# 首先看一下数据类型是什么,才能在添加行的时候对症下药df.info()s = pd.Series(['Lee','1900-03-03','1999-03-03',90,'musician'],index = ['Name','Born','Died','Age','Occupation'])df.append(s,ignore_index = True)  #  或者是用之前的 s.name = 8 ​# df.drop(7)  #删除第7行  或者 加中括号 [4,7] 删除4, 7 行 # df.drop('Name',axis = 1)    # inplace = True  表示对最原始的df进行修改 ,但是注意 不是修改csv 文件 !df.Name[0:4]   #  选择前4个科学家的名字 # df['other'] = range(0,len(df))  # df['other'] = pd.Series(np.random.randint(1,100,size =(8,)))df[df['Age'] > df['Age'].mean()]​​​df.iloc[0:6]  #说下区别 df.loc[0:6] #显示索引 ​df.iloc[0,2]   # 获取单个数据df.loc[0,'Age']​df.iloc[0]  # 取行df['Age']  # 取列 ​df[['Age','Name']] # 取指定列 df.iloc[[1,3,4]]  #  取多行​df.loc[[2,4],['Age','Name']]  #  取指定的多行和多列 df.iloc[[2,4],[1,4]]  # 用 iloc 进行获取 指定的多行多列 ​df.loc[[2,4],['Age','Name']].loc[2,'Age'] # 基础之前在取值 ​df = df.iloc[[2,4],[1,4]]  # 用 iloc 进行获取 指定的多行多列 df.to_csv('./测试.csv',index =  False)df = pd.read_csv('测试.csv')python
+
 
 **Null**: 表示空无一物，啥也没有存储。
 
@@ -405,3 +402,30 @@ df_new.min()  # 最小值
 df_new.max()   # 最大值 
 
 ```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
