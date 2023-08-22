@@ -90,26 +90,27 @@
 	background: rgba(234, 237, 238,0.95);
 }
 /* 关于页面 */
-/* 关于页面 */
 .layout > #page {
 	background: rgb(36, 70, 89);
 	border: 2px solid #8e0a7d;
 	border-radius: 10px;
 	box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-	padding: 20px;
+	
 	color: #fff;
-	font-family: "Georgia", serif; /* 使用典雅的字体，如 Georgia */
+	font-family: "Georgia", serif;
 	font-size: 24px;
 	text-align: center;
 	text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 	transition: background-color 0.3s ease, opacity 0.3s ease;
-  }
-  
-  .layout > #page:hover {
+}
+
+.layout > #page:hover {
 	background-color: rgba(17, 22, 23, 0.97);
-	opacity: 0.95; /* 将透明度降低为0.9 */
-  }
-  
+	opacity: 0.95;
+}
+
+
+
   
 #nav-right{
 	flex:1 1 auto;
@@ -133,3 +134,5 @@
     -ms-transition: none!important;
     -o-transition: none!important;
 }
+
+

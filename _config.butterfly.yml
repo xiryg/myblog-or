@@ -414,7 +414,7 @@ comments:
   text: true # Display the comment name next to the button
   # lazyload: The comment system will be load when comment element enters the browser's viewport.
   # If you set it to true, the comment count will be invalid
-  lazyload: false
+  lazyload: true
   count: false # Display comment count in post's top_img
   card_post_count: true # Display comment count in Home Page
 
@@ -932,11 +932,11 @@ inject:
   head:
     # - <link rel="stylesheet" href="/xxx.css">
     - <link rel="stylesheet" href="/css/modify.css">
+    - <link rel="stylesheet" href="/css/modify.css">
     - <link rel="stylesheet" href="/css/cat.css">
     - <link rel="stylesheet" href="/css/myStyle.css">
     - <link rel="stylesheet" href="/css/fontSetting1.css">
     - <link rel="stylesheet" href="/css/fontSetting.css">
-    - <link rel="stylesheet" href="/css/modify.css">
     - <link rel="stylesheet" href="/css/custom.css">
   bottom:
     #- <div class="aplayer no-destroy" data-id="8184052782" data-server="netease" data-type="playlist" data-fixed="true" data-autoplay="false"> </div>

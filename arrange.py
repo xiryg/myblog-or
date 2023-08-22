@@ -31,6 +31,7 @@ def main():
         ['hexo', 'clean'],
         ['hexo', 'douban'],
         ['hexo', 'generate'],
+        ['gulp', 'zip'],
         ['hexo', 'deploy']
     ]
 
