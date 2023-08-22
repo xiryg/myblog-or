@@ -4,6 +4,7 @@ tags: 高阶函数
 cover: 'https://img.tucang.cc/api/image/show/4070078c4876eed8700b2bf55aca0ac4'
 categories: cs61a
 abbrlink: e5fa646
+description: cs61a - 作为参数的函数相关
 date: 2023-08-09 21:04:01
 ---
 

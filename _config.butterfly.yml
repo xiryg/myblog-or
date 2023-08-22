@@ -93,7 +93,9 @@ cover:
   position: both
   # When cover is not set, the default cover is displayed (當沒有設置cover時，默認的封面顯示)
   default_cover:
-
+# 主页卡片样式
+# Docs: https://akilar.top/posts/d6b69c49/
+index_card_style: slidecard # slidecard | multicard
 
 
 # Replace Broken Images (替換無法顯示的圖片)
@@ -127,7 +129,7 @@ post_meta:
 # 3: auto_excerpt (default)
 # false: do not show the article introduction
 index_post_content:
-  method: 3
+  method: 2
   length: 500 # if you set method to 2 or 3, the length need to config
 
 # anchor
