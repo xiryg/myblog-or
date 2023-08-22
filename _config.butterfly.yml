@@ -17,6 +17,7 @@ menu:
   清单||fas fa-list:
     音乐: /songs/ || fas fa-music
     照片: /Gallery/ || fas fa-images
+    番剧: /bangumis/ || fas fa-tv
     电影: /movies/ || fas fa-video
     游戏: /games/ || fas fa-gamepad
     书籍: /books/ || fas fa-book
@@ -40,7 +41,7 @@ code_word_wrap: false
 social:
   fab fa-github: https://github.com/xiryg || Github || '#24292e'
   fas fa-envelope: mailto:xry102410@gmail.com || Email || '#4a7dbe'
-  fab fa-qq: tencent://message/?uin=209578138 || QQ || '#66b1ff'
+  fab fa-qq: http://wpa.qq.com/msgrd?v=3&uin=2095378138&site=qq&menu=yes || QQ || '#66b1ff'
 # Image (圖片設置)
 # --------------------------------------
 
@@ -108,13 +109,13 @@ error_404:
 
 post_meta:
   page: # Home Page
-    date_type: both # created or updated or both 主頁文章日期是創建日或者更新日或都顯示
+    date_type: created # created or updated or both 主頁文章日期是創建日或者更新日或都顯示
     date_format: date # date/relative 顯示日期還是相對日期
     categories: true # true or false 主頁是否顯示分類
     tags: true # true or false 主頁是否顯示標籤
     label: true # true or false 顯示描述性文字
   post:
-    date_type: both # created or updated or both 文章頁日期是創建日或者更新日或都顯示
+    date_type: created # created or updated or both 文章頁日期是創建日或者更新日或都顯示
     date_format: date # date/relative 顯示日期還是相對日期
     categories: true # true or false 文章頁是否顯示分類
     tags: true # true or false 文章頁是否顯示標籤
@@ -290,11 +291,11 @@ runtimeshow:
 
 # Aside widget - Newest Comments
 newest_comments:
-  enable: true
+  enable: false
   sort_order: # Don't modify the setting unless you know how it works
   limit: 6
   storage: 10 # unit: mins, save data to localStorage
-  avatar: true
+  avatar: false
 
 # Bottom right button (右下角按鈕)
 # --------------------------------------
@@ -616,7 +617,7 @@ theme_color:
   paginator: "#00c4b6"
   button_hover: "#FF7242"
   text_selection: "#00c4b6"
-  link_color: "#99a9bf"
+  link_color: "#145cbe"
   meta_color: "#858585"
   hr_color: "#A4D8FA"
   code_foreground: "#F47466"
@@ -919,17 +920,7 @@ Open_Graph_meta:
     # fb_admins:
     # fb_app_id:
 
-# Google Calendar
-# Share your recent schedule to others via calendar page.
-calendar:
-  calendar_id: xry102410@gmail.com
-  api_key: AIzaSyBnvg6s9w6N8TNfvvPNE-kU593-efVNmck
-  orderBy: startTime
-  offsetMax: 72 # Time Range
-  offsetMin: 4 # Time Range
-  showDeleted: false
-  singleEvents: true
-  maxResults: 250
+
 
 # Add the vendor prefixes to ensure compatibilit
 css_prefix: true
@@ -946,6 +937,7 @@ inject:
     - <link rel="stylesheet" href="/css/fontSetting1.css">
     - <link rel="stylesheet" href="/css/fontSetting.css">
     - <link rel="stylesheet" href="/css/modify.css">
+    - <link rel="stylesheet" href="/css/custom.css">
   bottom:
     #- <div class="aplayer no-destroy" data-id="8184052782" data-server="netease" data-type="playlist" data-fixed="true" data-autoplay="false"> </div>
     # - <script src="xxxx"></script>

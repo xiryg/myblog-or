@@ -4,6 +4,8 @@ tags: 'pandas, 数据分析'
 cover: 'https://img.tucang.cc/api/image/show/ce75eb2f2b99c123feb6dad7268e59f7'
 categories: 数据分析
 abbrlink: d366272
+swiper_index: 2
+description: pandas基础之DataFrame的相关操作
 date: 2023-08-02 23:13:47
 ---
 

@@ -4,6 +4,8 @@ tags: 'pandas, 数据分析'
 cover: 'https://img.tucang.cc/api/image/show/0211dbe89472ef0af227491ccdd02756'
 categories: 数据分析
 abbrlink: a288cc11
+swiper_index: 1
+description: pandas基础Series的相关操作
 date: 2023-08-02 21:00:13
 ---
 ## **pandas基础之series**
