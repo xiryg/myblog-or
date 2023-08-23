@@ -31,7 +31,7 @@ def main():
         ['hexo', 'clean'],
         ['hexo', 'douban'],
         ['hexo', 'generate'],
-        ['hexo', 'bangumi -u'],
+        ['hexo', 'bangumi', '-u'],
         ['gulp', 'zip'],
         ['hexo', 'deploy']
     ]
