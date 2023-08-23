@@ -22,10 +22,10 @@ menu:
     游戏: /games/ || fas fa-gamepad
     书籍: /books/ || fas fa-book
   #日程表: /schedule/ || fas fa-calendar  
-  #Link: /link/ || fas fa-link
-  说说: /artitalk/ || fas fa-comment
+  # Link: /link/ || fas fa-link
+  # 说说: /shuoshuo/ || fas fa-comment
   关于: /about/ || fas fa-heart
-
+      
 # Code Blocks (代碼相關)
 # --------------------------------------
 
@@ -96,7 +96,7 @@ cover:
   default_cover:
 # 主页卡片样式
 # Docs: https://akilar.top/posts/d6b69c49/
-index_card_style: slidecard # slidecard | multicard
+index_card_style: multicard # slidecard | multicard
 
 
 # Replace Broken Images (替換無法顯示的圖片)
@@ -231,9 +231,9 @@ aside:
   mobile: true # display on mobile
   position: left # left or right
   display:
-    archive: true
-    tag: true
-    category: true
+    archive: false
+    tag: false
+    category: false
   card_author:
     enable: true
     description:
@@ -246,24 +246,24 @@ aside:
     enable: true
     content: 随缘更新，有问题联系我！！！
   card_recent_post:
-    enable: true
+    enable: false
     limit: 5 # if set 0 will show all
     sort: date # date or updated
     sort_order: # Don't modify the setting unless you know how it works
   card_categories:
-    enable: true
+    enable: false
     limit: 8 # if set 0 will show all
     expand: none # none/true/false
     sort_order: # Don't modify the setting unless you know how it works
   card_tags:
-    enable: true
+    enable: false
     limit: 40 # if set 0 will show all
     color: true
     orderby: random # Order of tags, random/name/length
     order: 1 # Sort of order. 1, asc for ascending; -1, desc for descending
     sort_order: # Don't modify the setting unless you know how it works
   card_archives:
-    enable: true
+    enable: false
     type: monthly # yearly or monthly
     format: MMMM YYYY # eg: YYYY年MM月
     order: -1 # Sort of order. 1, asc for ascending; -1, desc for descending
@@ -453,22 +453,14 @@ gitalk:
 # valine
 # https://valine.js.org
 valine:
-  appId: s8eJNUtfrGPEsqXoIRgMSjXQ-MdYXbMMI
-  appKey: ER3hyc5ccGVQTQugdaoqfA05
+  appId: Huk3ZeWiVjBrk9gezvxxFojR-gzGzoHsz
+  appKey: g5DT10GBC03tBBa2siB81UdS
   avatar: monsterid # gravatar style https://valine.js.org/#/avatar
   serverURLs: # This configuration is suitable for domestic custom domain name users, overseas version will be automatically detected (no need to manually fill in)
   bg: # valine background
-  visitor: false
+  visitor: true
   option:
-artitalk:
-  enable: true
-  appId: s8eJNUtfrGPEsqXoIRgMSjXQ-MdYXbMMI
-  appKey: ER3hyc5ccGVQTQugdaoqfA05
-  path:
-  js: https://cdn.jsdelivr.net/npm/artitalk
-  option:
-  front_matter: 
-    - comments: false
+
 # waline - A simple comment system with backend support fork from Valine
 # https://waline.js.org/
 waline:

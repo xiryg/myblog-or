@@ -69,7 +69,7 @@ mixin postUI(posts)
                     block
                   span.article-meta-label= ' ' + _p('card_post_count')
               
-              if theme.comments.card_post_count
+              if theme.comments.card_post_count && theme.comments.use
                 case theme.comments.use[0]
                   when 'Disqus'
                     +countBlockInIndex
