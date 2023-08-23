@@ -10,6 +10,8 @@ keywords:
 author: Xiryg.
 language: zh-CN
 timezone: Asia/Shanghai
+# Artitalk
+# see https://artitalk.js.org/
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
@@ -149,7 +151,7 @@ abbrlink:
 # order_by: Posts order. (Order by date descending by default)
 index_generator:
   path: ''
-  per_page: 30
+  per_page: 12
   order_by: -date
 
 # Category & Tag

@@ -17,6 +17,7 @@
     "hexo": "^6.3.0",
     "hexo-abbrlink": "^2.2.1",
     "hexo-bilibili-bangumi": "^1.8.8",
+    "hexo-butterfly-artitalk": "^1.0.4",
     "hexo-butterfly-clock-anzhiyu": "^1.1.8",
     "hexo-butterfly-hpptalk": "^1.0.4",
     "hexo-butterfly-swiper": "^1.0.12",

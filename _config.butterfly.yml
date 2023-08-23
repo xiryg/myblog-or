@@ -23,6 +23,7 @@ menu:
     书籍: /books/ || fas fa-book
   #日程表: /schedule/ || fas fa-calendar  
   #Link: /link/ || fas fa-link
+  说说: /artitalk/ || fas fa-comment
   关于: /about/ || fas fa-heart
 
 # Code Blocks (代碼相關)
@@ -452,14 +453,22 @@ gitalk:
 # valine
 # https://valine.js.org
 valine:
-  appId: Huk3ZeWiVjBrk9gezvxxFojR-gzGzoHsz
-  appKey: g5DT10GBC03tBBa2siB81UdS
+  appId: s8eJNUtfrGPEsqXoIRgMSjXQ-MdYXbMMI
+  appKey: ER3hyc5ccGVQTQugdaoqfA05
   avatar: monsterid # gravatar style https://valine.js.org/#/avatar
   serverURLs: # This configuration is suitable for domestic custom domain name users, overseas version will be automatically detected (no need to manually fill in)
   bg: # valine background
-  visitor: true
+  visitor: false
   option:
-
+artitalk:
+  enable: true
+  appId: s8eJNUtfrGPEsqXoIRgMSjXQ-MdYXbMMI
+  appKey: ER3hyc5ccGVQTQugdaoqfA05
+  path:
+  js: https://cdn.jsdelivr.net/npm/artitalk
+  option:
+  front_matter: 
+    - comments: false
 # waline - A simple comment system with backend support fork from Valine
 # https://waline.js.org/
 waline:
@@ -736,10 +745,10 @@ display_mode: light
 
 # Beautify (美化頁面顯示)
 beautify:
-  enable: false
+  enable: true
   field: post # site/post
   title-prefix-icon: # '\f0c1'
-  title-prefix-icon-color: # '#F47466'
+  title-prefix-icon-color: '#fd6294'
 
 # Global font settings
 # Don't modify the following settings unless you know how they work (非必要不要修改)
@@ -794,6 +803,7 @@ preloader:
   # pace theme (see https://codebyzach.github.io/pace/)
   pace_css_url:
 
+
 # wordcount (字數統計)
 # see https://butterfly.js.org/posts/ceeb73f/#字數統計
 wordcount:
@@ -801,6 +811,7 @@ wordcount:
   post_wordcount: true
   min2read: true
   total_wordcount: true
+
 
 # Lightbox (圖片大圖查看模式)
 # --------------------------------------
@@ -893,10 +904,10 @@ pangu:
 # Lazyload (圖片懶加載)
 # https://github.com/verlok/vanilla-lazyload
 lazyload:
-  enable: false
+  enable: true
   field: site # site/post
   placeholder:
-  blur: false
+  blur: true
 
 # PWA
 # See https://github.com/JLHwung/hexo-offline
@@ -1006,7 +1017,7 @@ CDN:
     # instantsearch:
     # docsearch_js:
     # docsearch_css:
-    # pjax:
+    # pjax: https://lib.baomitu.com/pjax/0.2.8/pjax.min.js
     # gitalk:
     # gitalk_css:
     # blueimp_md5:
@@ -1026,12 +1037,12 @@ CDN:
     # canvas_ribbon:
     # canvas_fluttering_ribbon:
     # canvas_nest:
-    # lazyload:
+    # lazyload: https://lf3-cdn-tos.bytecdntp.com/cdn/expire-1-M/vanilla-lazyload/17.3.1/lazyload.iife.min.js
     # instantpage:
     # typed:
-    # pangu:
-    # fancybox_css:
-    # fancybox:
+    # pangu: https://lf3-cdn-tos.bytecdntp.com/cdn/expire-1-M/pangu/4.0.7/pangu.min.js
+    # fancybox_css: https://lf3-cdn-tos.bytecdntp.com/cdn/expire-1-M/fancybox/3.5.7/jquery.fancybox.min.css
+    # fancybox: https://lf6-cdn-tos.bytecdntp.com/cdn/expire-1-M/fancybox/3.5.7/jquery.fancybox.min.js
     # medium_zoom:
     # snackbar_css:
     # snackbar:
