@@ -1,0 +1,36 @@
+#todolist-box
+    .page-top-card(style='background-image: url(https://img.tucang.cc/api/image/show/34ce59e4ba12c5077a52e2623f6fde8e);')
+        .content-item-tips 想做清单
+        span.content-item-title ToDoList
+        .content-bottom
+            .tips 要做的事还有很多，想做的事源源不断
+    #todolist-main
+        #todolist-left
+            each i in site.data.todolist
+                if i.seat == 'left'
+                    .todolist-item
+                        h3.todolist-title=i.class_name
+                        ul.todolist-ul
+                            each item in i.todo_list
+                                li.todolist-li
+                                    if item.completed
+                                        i.fa-regular.fa-circle-check
+                                    else 
+                                        i.fa-regular.fa-circle
+                                    span=item.content
+        #todolist-right
+            each i in site.data.todolist
+                if i.seat == 'right'
+                    .todolist-item
+                        h3.todolist-title=i.class_name
+                        ul.todolist-ul
+                            each item in i.todo_list
+                                li.todolist-li
+                                    if item.completed
+                                        i.fa-regular.fa-circle-check
+                                    else 
+                                        i.fa-regular.fa-circle
+                                    span=item.content
+
+
+

@@ -23,7 +23,7 @@ menu:
     书籍: /books/ || fas fa-book
   #日程表: /schedule/ || fas fa-calendar  
   # Link: /link/ || fas fa-link
-  # 说说: /shuoshuo/ || fas fa-comment
+  待办: /todolist/ || fas fa-comment
   关于: /about/ || fas fa-heart
       
 # Code Blocks (代碼相關)
@@ -939,6 +939,7 @@ inject:
     - <link rel="stylesheet" href="/css/modify.css">
     - <link rel="stylesheet" href="/css/modify.css">
     - <link rel="stylesheet" href="/css/cat.css">
+    - <link rel="stylesheet" href="/css/todolist.css">
     - <link rel="stylesheet" href="/css/myStyle.css">
     - <link rel="stylesheet" href="/css/fontSetting1.css">
     - <link rel="stylesheet" href="/css/fontSetting.css">
