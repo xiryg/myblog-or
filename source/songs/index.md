@@ -1,10 +1,11 @@
 ---
-title: songs
+title: piano melody
 date: 2023-08-11 22:44:31
 comments: false
-aplayer: true
+type: "songs"
+aside: false
 ---
 
-{% meting "000PeZCQ1i4XVs" "tencent" "artist" "theme:#3F51B5" "mutex:true" "preload:auto" %}
 
-ttttttaxm
+{% meting "2889745179" "netease" "playlist" "autoplay" "mutex:false" "listmaxheight:340px" "preload:none" "theme:#ad7a86"%}
+

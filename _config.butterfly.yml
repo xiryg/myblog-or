@@ -23,7 +23,7 @@ menu:
     书籍: /books/ || fas fa-book
   #日程表: /schedule/ || fas fa-calendar  
   # Link: /link/ || fas fa-link
-  待办: /todolist/ || fas fa-comment
+  待办: /todolist/ || fas fa-check
   关于: /about/ || fas fa-heart
       
 # Code Blocks (代碼相關)
@@ -40,7 +40,8 @@ code_word_wrap: false
 # formal:
 #   icon: link || the description || color
 social:
-  fab fa-github: https://github.com/xiryg || Github || '#24292e'
+  #fab fa-github: https://github.com/xiryg || Github || '#24292e'
+  fab fa-weixin: https://img.tucang.cc/api/image/show/7d05d4b46b663f394b8ee12cd22428be || 微信 || '#087d36'
   fas fa-envelope: mailto:xry102410@gmail.com || Email || '#4a7dbe'
   fab fa-qq: http://wpa.qq.com/msgrd?v=3&uin=2095378138&site=qq&menu=yes || QQ || '#66b1ff'
 # Image (圖片設置)
@@ -218,11 +219,38 @@ footer:
   owner:
     enable: true
     since: 2023
-  custom_text: <a href="https://icp.gov.moe/?keyword=20232410" target="_blank" style="color:silver;">萌ICP备20232410号</a>
+  custom_text: 
+            - <a href="https://icp.gov.moe/?keyword=20232410" target="_blank" style="color:#e41d97;"><img src="https://moe.one/view/img/ico64.png" alt="萌ICP备20232410号" style="width:24px;height:24px;vertical-align:middle;">萌ICP备20232410号</a>
+           # - <a href="https://icp.gov.moe/?keyword=20232410" target="_blank" style="color:silver;">萌ICP备20232410号</a>
+            - <a style="text-decoration:none;color:#55bb8a;" href="https://travel.moe/go.html" title="异次元之旅-跃迁-我们一起去萌站成员的星球旅行吧！" target="_blank"><img src="https://travel.moe/images/icon/icon64green.png" style="width:24px;height:24px">异次元之旅</a>
   copyright: true # Copyright of theme and framework
 
 # aside (側邊欄)
 # --------------------------------------
+# 自定义右键菜单
+GalMenu:
+  enable: true # true or false  是否开启右键
+  audio: false  # true or false 是否开启点击音乐
+  music: https://cdn.jsdelivr.net/gh/Akilarlxh/Akilarlxh.github.io@v3.3.3_3/galmenu/galmenu.mp3 #点击音乐，不填则为默认点击音乐
+  MenuItem: #菜单配置
+    item1: 首页 # 菜单标题
+    link1: /  # 跳转链接路径
+    icon1: #url('https://cdn.jsdelivr.net/gh/Akilarlxh/Akilarlxh.github.io@v3.3.3_3/galmenu/random.png')   # 图片链接，记得按照示例填写。必须用url('')包起来。不填则为默认图标
+    item2: 归档
+    link2: /archives/
+    icon2:
+    item3: 标签
+    link3: /tags/
+    icon3:
+    item4: 分类
+    link4: /categories/
+    icon4:
+    item5: 待办
+    link5: /todolist/
+    icon5:
+    item6: 关于
+    link6: /about/
+    icon6:
 
 aside:
   enable: true
@@ -236,15 +264,34 @@ aside:
     category: false
   card_author:
     enable: true
-    description:
+    description: ""
     button:
-      enable: false
-      icon: fab fa-github
-      text: Follow Me
-      link: https://github.com/xiryg
+      enable: true
+      icon: "fab fa-github"
+      text: "Follow Me"
+      link: "https://github.com/xiryg"
+
   card_announcement:
-    enable: true
-    content: 随缘更新，有问题联系我！！！
+      enable: true
+      content:
+      - "<div style='border: 1px solid #e41d97; background-color: #e7cdcd; padding: 10px; border-radius: 10px; text-align: center; box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);'>
+          <div style='display: flex; align-items: center; margin-bottom: 10px;'>
+              <a href='https://xirygking.cloud/' target='_blank' style='color: #220019; display: flex; align-items: center; text-decoration: none;'>
+                  <img src='/img/logo_transparent.png' alt='域名1' style='width: 24px; height: 24px; margin-right: 5px;'>
+                  <span style='font-weight: bold;'>网址(1)(coding)(还行)</span>
+              </a>
+          </div>
+          <div style='display: flex; align-items: center; margin-bottom: 10px;'>
+              <a href='https://www.xirygblog.top/' target='_blank' style='color: #220019; display: flex; align-items: center; text-decoration: none;'>
+                  <img src='/img/logo_transparent.png' alt='域名2' style='width: 24px; height: 24px; margin-right: 5px;'>
+                  <span style='font-weight: bold;'>网址(2)(github pages)(勉强)</span>
+              </a>
+          </div>
+          <p style='margin-top: 10px; color: #e41d97; font-weight: bold;'>如遇卡顿，请换网址，也许都卡</p>
+      </div>"
+      - "<p style='text-align: center; margin-top: 10px; color: #2c7999;'>随缘更新，有问题联系我！！！</p>"
+
+
   card_recent_post:
     enable: false
     limit: 5 # if set 0 will show all
@@ -553,7 +600,7 @@ daovoice:
 # crisp
 # https://crisp.chat/en/
 crisp:
-  enable: true
+  enable: false
   website_id: 8c5951e3-e8c3-4464-bb8c-4b870aefd4c9
 
 # messenger
@@ -937,7 +984,7 @@ inject:
   head:
     # - <link rel="stylesheet" href="/xxx.css">
     - <link rel="stylesheet" href="/css/modify.css">
-    - <link rel="stylesheet" href="/css/modify.css">
+
     - <link rel="stylesheet" href="/css/cat.css">
     - <link rel="stylesheet" href="/css/todolist.css">
     - <link rel="stylesheet" href="/css/myStyle.css">
