@@ -12,6 +12,7 @@
     "version": "6.3.0"
   },
   "dependencies": {
+    "@upupming/hexo-renderer-markdown-it-plus": "^2.0.2",
     "cheerio": "^1.0.0-rc.12",
     "gulp": "^4.0.2",
     "hexo": "^6.3.0",
@@ -31,7 +32,6 @@
     "hexo-githubcalendar": "^1.2.3",
     "hexo-history-calendar": "^1.0.3",
     "hexo-renderer-ejs": "^2.0.0",
-    "hexo-renderer-kramed": "^0.1.4",
     "hexo-renderer-pug": "^3.0.0",
     "hexo-renderer-stylus": "^2.1.0",
     "hexo-server": "^3.0.0",
