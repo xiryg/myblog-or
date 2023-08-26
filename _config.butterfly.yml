@@ -912,7 +912,7 @@ note:
 pjax:
   enable: true
   exclude:
-    # - xxxx
+       - https://xirygblog.top
     # - xxxx
 
 # Inject the css and script (aplayer/meting)
