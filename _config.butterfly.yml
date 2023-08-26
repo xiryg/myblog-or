@@ -992,7 +992,7 @@ inject:
     - <link rel="stylesheet" href="/css/custom.css">
   bottom:
     - <script src="https://jsd.onmicrosoft.cn/gh/qxchuckle/Post-Summary-AI@5.7/chuckle-post-ai.min.js"></script>
-    - <script data-pjax defer>new ChucklePostAI({el:'#post>#article-container',key:'5fb5145dc8f0051e77c9',rec_method:'web',whitelist:['/posts/'],pjax:true})</script>
+    - <script data-pjax defer>new ChucklePostAI({el:'#post>#article-container',key:'5fb5145dc8f0051e77c9',rec_method:'web',title_el:'.post-title',pjax:true,summary_directly:true,})</script>
     - <script src="/js/jquery.js"></script>
     - <script src="/js/foot.js"></script>
     - <script async src="https://npm.elemecdn.com/tzy-blog/lib/js/other/sakura.js"></script>
