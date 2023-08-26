@@ -982,9 +982,8 @@ css_prefix: true
 # 插入代码到头部 </head> 之前 和 底部 </body> 之前
 inject:
   head:
-    # - <link rel="stylesheet" href="/xxx.css">
     - <link rel="stylesheet" href="/css/modify.css">
-    - <link rel="stylesheet" href="https://cdn1.tianli0.top/gh/zhheo/Post-Abstract-AI@0.7/tianli_gpt.css">
+    - <link rel="stylesheet" href="https://jsd.onmicrosoft.cn/gh/qxchuckle/Post-Summary-AI@5.7/chuckle-post-ai.css">
     - <link rel="stylesheet" href="/css/cat.css">
     - <link rel="stylesheet" href="/css/todolist.css">
     - <link rel="stylesheet" href="/css/myStyle.css">
@@ -992,14 +991,13 @@ inject:
     - <link rel="stylesheet" href="/css/fontSetting.css">
     - <link rel="stylesheet" href="/css/custom.css">
   bottom:
-    #- <div class="aplayer no-destroy" data-id="8184052782" data-server="netease" data-type="playlist" data-fixed="true" data-autoplay="false"> </div>
-    # - <script src="xxxx"></script>
-    - <script>let tianliGPT_postSelector = '\#post \#article-container';let tianliGPT_key = '5fb5145dc8f0051e77c9';</script>
-    - <script src="https://cdn1.tianli0.top/gh/zhheo/Post-Abstract-AI@0.7/tianli_gpt.js"></script>
+    - <script src="https://jsd.onmicrosoft.cn/gh/qxchuckle/Post-Summary-AI@5.7/chuckle-post-ai.min.js"></script>
+    - <script data-pjax defer>new ChucklePostAI({el:'#post>#article-container',key:'5fb5145dc8f0051e77c9',rec_method:'web',whitelist:['/posts/'],pjax:true})</script>
     - <script src="/js/jquery.js"></script>
     - <script src="/js/foot.js"></script>
     - <script async src="https://npm.elemecdn.com/tzy-blog/lib/js/other/sakura.js"></script>
     - <script defer data-pjax src="/js/cat.js"></script>
+
 
 
 electric_clock:
