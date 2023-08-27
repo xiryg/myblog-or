@@ -74,4 +74,4 @@ gulp.task('minify-ttf', (cb) => {
 });
 
 //压缩
-gulp.task("zip", gulp.parallel('minify-html', 'minify-ttf'))
+gulp.task("zip", gulp.parallel('minify-html','minify-js','minify-ttf'))

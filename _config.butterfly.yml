@@ -912,7 +912,6 @@ note:
 pjax:
   enable: true
   exclude:
-       - https://xirygblog.top
     # - xxxx
 
 # Inject the css and script (aplayer/meting)
@@ -993,7 +992,7 @@ inject:
     - <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.9.0/katex.min.css">
   bottom:
     - <script src="https://jsd.onmicrosoft.cn/gh/qxchuckle/Post-Summary-AI@5.7/chuckle-post-ai.min.js"></script>
-    - <script data-pjax defer>new ChucklePostAI({el:'#post>#article-container',key:'5fb5145dc8f0051e77c9',rec_method:'web',title_el:'.post-title',pjax:true,interface:{name:'xiryg-AI',introduce:'我是文章辅助AI:xiryg-AI，点击下方的按钮，让我生成本文简介、推荐相关文章等.'},})</script>
+    - <script data-pjax defer>new ChucklePostAI({el:'#post>#article-container',key:'5fb5145dc8f0051e77c9',rec_method:'web',title_el:'.post-title',interface:{name:'xiryg-AI',introduce:'我是文章辅助AI:xiryg-AI，点击下方的按钮，让我生成本文简介、推荐相关文章等.'},})</script>
     - <script src="/js/jquery.js"></script>
     - <script src="/js/foot.js"></script>
     - <script async src="https://npm.elemecdn.com/tzy-blog/lib/js/other/sakura.js"></script>
