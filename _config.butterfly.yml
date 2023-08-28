@@ -151,7 +151,7 @@ copy:
   enable: true
   copyright:
     enable: true
-    limit_count: 30
+    limit_count: 150
 
 # Post
 # --------------------------------------
@@ -615,7 +615,7 @@ messenger:
 
 # Baidu Analytics
 # https://tongji.baidu.com/web/welcome/login
-baidu_analytics:
+baidu_analytics: 881072d860d6e9d663c1a3abf0e0becb #f6a573f64a791a7aa48c7da7cba9d1ff
 
 # Google Analytics
 # https://analytics.google.com/analytics/web/
@@ -794,8 +794,8 @@ beautify:
 font:
   global-font-size: 
   code-font-size: 
-  font-family: -apple-system BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Lato, Roboto, "PingFang SC", "Microsoft JhengHei", "Microsoft YaHei", sans-serif
-  code-font-family: Inconsolata ,consolas, Menlo, "PingFang SC", "Microsoft JhengHei", "Microsoft YaHei", sans-serif
+  font-family: Montserrat, "Segoe UI", "Helvetica Neue", Lato, Roboto, "PingFang SC", "Microsoft JhengHei", "Microsoft YaHei", sans-serif
+  code-font-family: Hack, Inconsolata ,consolas, Menlo, "PingFang SC", "Microsoft JhengHei", "Microsoft YaHei", sans-serif
 
 
 # Font settings for the site title and site subtitle
