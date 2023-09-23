@@ -253,16 +253,8 @@ search:
   field: post
   content: true
   format: html
-# 自动生成sitemap
 sitemap:
-  path: 
-    - sitemap.xml
-    - sitemap.txt
-  template: ./sitemap_template.xml
-  template_txt: ./sitemap_template.txt
-  rel: false
-  tags: true
-  categories: true
+  path: sitemap.xml
 baidusitemap:
   path: baidusitemap.xml
 # Deployment
