@@ -981,6 +981,8 @@ css_prefix: true
 # 插入代码到头部 </head> 之前 和 底部 </body> 之前
 inject:
   head:
+    - <meta name="google-site-verification" content="x8Img4Bmcx6DgXBVYqqgte9dsalYIImcX0RTT6Ln14I" />
+    - <meta name="baidu-site-verification" content="codeva-8P6lHnaL4G" />
     - <link rel="stylesheet" href="/css/modify.css">
     - <link rel="stylesheet" href="https://jsd.onmicrosoft.cn/gh/qxchuckle/Post-Summary-AI@5.7/chuckle-post-ai.css">
     - <link rel="stylesheet" href="/css/cat.css">
