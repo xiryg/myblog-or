@@ -502,11 +502,13 @@ gitalk:
 valine:
   appId: Huk3ZeWiVjBrk9gezvxxFojR-gzGzoHsz
   appKey: g5DT10GBC03tBBa2siB81UdS
-  avatar: monsterid # gravatar style https://valine.js.org/#/avatar
+  avatar: wavatar # gravatar style https://valine.js.org/#/avatar
   serverURLs: # This configuration is suitable for domestic custom domain name users, overseas version will be automatically detected (no need to manually fill in)
   bg: # valine background
   visitor: true
   option:
+  recordIP: true
+  enableQQ: true
 
 # waline - A simple comment system with backend support fork from Valine
 # https://waline.js.org/
