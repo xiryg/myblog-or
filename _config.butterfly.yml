@@ -510,6 +510,12 @@ valine:
   recordIP: true
   enableQQ: true
 
+
+
+
+
+
+
 # waline - A simple comment system with backend support fork from Valine
 # https://waline.js.org/
 waline:
@@ -1065,7 +1071,7 @@ CDN:
     # gitalk:
     # gitalk_css:
     # blueimp_md5:
-    # valine:
+    valine: /js/valine.min.js
     # disqusjs:
     # disqusjs_css:
     # twikoo:

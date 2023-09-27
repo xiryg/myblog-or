@@ -59,7 +59,13 @@ script.
         "headers": {
           "X-LC-Id": '!{theme.valine.appId}',
           "X-LC-Key": '!{theme.valine.appKey}',
-          "Content-Type": "application/json"
+          "Content-Type": "application/json",
+          "placeholder": '#{theme.valine.placeholder}',
+          "enableQQ": '#{theme.valine.enableQQ}',
+          "master": '#{theme.valine.master}'.split(','),
+          "friends": '#{theme.valine.friends}'.split(','),
+          //- "tagMeta": '#{theme.valine.tagMeta || "博主,小伙伴,访客"}'.split(','),
+          "metaPlaceholder": !{JSON.stringify(theme.valine.metaPlaceholder || {})}
         },
       }
 
