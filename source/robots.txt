@@ -12,5 +12,5 @@ Disallow: /fonts/
 Disallow: /vendors/
 Disallow: /fancybox/
 
-Sitemap: http://qqqww.com/sitemap.xml
-Sitemap: http://qqqww.com/baidusitemap.xml
+Sitemap: https://www.xirygblog.top/sitemap.xml
+Sitemap: https://www.xirygblog.top/baidusitemap.xml
