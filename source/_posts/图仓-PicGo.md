@@ -1,8 +1,9 @@
 ---
 title: 图仓+tinyimage+PicGo
-tags: 图床
+tags:
+  - 图床
 categories: 图床搭建
-cover: 'https://img.tucang.cc/api/image/show/bc600b1b3b411e37d9ed9d9b99ad2c27'
+cover: https://img.tucang.cc/api/image/show/bc600b1b3b411e37d9ed9d9b99ad2c27
 abbrlink: 558cad5e
 description: 简单便捷的图床搭建方法
 date: 2023-08-16 20:16:49
