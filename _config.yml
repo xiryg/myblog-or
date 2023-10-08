@@ -153,7 +153,7 @@ prismjs:
   tab_replace: ''
 
 # abbrlink config
-permalink: posts/:abbrlink.html      # 将原来文章的地址修改为这个
+permalink: posts/:abbrlink      # 将原来文章的地址修改为这个
 
 # 并添加如下配置：
 abbrlink:
