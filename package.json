@@ -16,7 +16,7 @@
     "@upupming/hexo-renderer-markdown-it-plus": "^2.0.2",
     "cheerio": "^1.0.0-rc.12",
     "chokidar": "^3.5.3",
-    "core-js": "^3.32.2",
+    "core-js": "^3.33.1",
     "gulp": "^4.0.2",
     "hexo": "^6.3.0",
     "hexo-abbrlink": "^2.2.1",
