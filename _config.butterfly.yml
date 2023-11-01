@@ -229,7 +229,7 @@ footer:
 # --------------------------------------
 # 自定义右键菜单
 GalMenu:
-  enable: true # true or false  是否开启右键
+  enable: false # true or false  是否开启右键
   audio: false  # true or false 是否开启点击音乐
   music: https://cdn.jsdelivr.net/gh/Akilarlxh/Akilarlxh.github.io@v3.3.3_3/galmenu/galmenu.mp3 #点击音乐，不填则为默认点击音乐
   MenuItem: #菜单配置
@@ -993,7 +993,7 @@ inject:
     - <meta name="baidu-site-verification" content="codeva-8P6lHnaL4G" />
     - <link rel="stylesheet" href="/css/modify.css">
     - <link rel="stylesheet" href="https://jsd.onmicrosoft.cn/gh/qxchuckle/Post-Summary-AI@5.7/chuckle-post-ai.css">
-    - <link rel="stylesheet" href="/css/cat.css">
+    # - <link rel="stylesheet" href="/css/cat.css">
     - <link rel="stylesheet" href="/css/todolist.css">
     - <link rel="stylesheet" href="/css/myStyle.css">
     - <link rel="stylesheet" href="/css/fontSetting1.css">
@@ -1005,8 +1005,8 @@ inject:
     - <script data-pjax defer>new ChucklePostAI({el:'#post>#article-container',key:'5fb5145dc8f0051e77c9',rec_method:'web',title_el:'.post-title',interface:{name:'xiryg-AI',introduce:'我是文章辅助AI:xiryg-AI，点击下方的按钮，让我生成本文简介、推荐相关文章等.'},})</script>
     - <script src="/js/jquery.js"></script>
     - <script src="/js/foot.js"></script>
-    - <script async src="https://npm.elemecdn.com/tzy-blog/lib/js/other/sakura.js"></script>
-    - <script defer data-pjax src="/js/cat.js"></script>
+    # - <script async src="https://npm.elemecdn.com/tzy-blog/lib/js/other/sakura.js"></script>
+    # - <script defer data-pjax src="/js/cat.js"></script>
 
 
 
@@ -1015,8 +1015,8 @@ electric_clock:
   priority: 5 #过滤器优先权
   enable_page: all # 应用页面
   exclude:
-    # - /posts/
-    # - /about/
+    - /posts/
+    - /about/
   layout: # 挂载容器类型
     type: class
     name: sticky_layout

@@ -2,7 +2,6 @@
 title: pandas基础复习
 tags: 'pandas, 数据分析'
 description: pandas基础复习-基本操作整理
-swiper_index: 8
 cover: 'https://img.tucang.cc/api/image/show/4d9b8126b1f955874ebd578759a18864'
 categories: 数据分析
 abbrlink: bfd17a4d
