@@ -25,7 +25,7 @@ menu:
   # Link: /link/ || fas fa-link
   待办: /todolist/ || fas fa-check
   关于: /about/ || fas fa-heart
-      
+
 # Code Blocks (代碼相關)
 # --------------------------------------
 
@@ -180,7 +180,7 @@ reward:
       link:
       text: 微信
     - img: https://xirygking.cloud/img/zfb.jpg
-      link: 
+      link:
       text: 支付宝
 
 # Post edit
@@ -219,10 +219,10 @@ footer:
   owner:
     enable: true
     since: 2023
-  custom_text: 
-            - <a href="https://icp.gov.moe/?keyword=20232410" target="_blank" style="color:#e41d97;"><img src="https://moe.one/view/img/ico64.png" alt="萌ICP备20232410号" style="width:24px;height:24px;vertical-align:middle;">萌ICP备20232410号</a>
-           # - <a href="https://icp.gov.moe/?keyword=20232410" target="_blank" style="color:silver;">萌ICP备20232410号</a>
-            - <a style="text-decoration:none;color:#55bb8a;" href="https://travel.moe/go.html" title="异次元之旅-跃迁-我们一起去萌站成员的星球旅行吧！" target="_blank"><img src="https://travel.moe/images/icon/icon64green.png" style="width:24px;height:24px">异次元之旅</a>
+  custom_text:
+    - <a href="https://icp.gov.moe/?keyword=20232410" target="_blank" style="color:#e41d97;"><img src="https://moe.one/view/img/ico64.png" alt="萌ICP备20232410号" style="width:24px;height:24px;vertical-align:middle;">萌ICP备20232410号</a>
+    # - <a href="https://icp.gov.moe/?keyword=20232410" target="_blank" style="color:silver;">萌ICP备20232410号</a>
+    - <a style="text-decoration:none;color:#55bb8a;" href="https://travel.moe/go.html" title="异次元之旅-跃迁-我们一起去萌站成员的星球旅行吧！" target="_blank"><img src="https://travel.moe/images/icon/icon64green.png" style="width:24px;height:24px">异次元之旅</a>
   copyright: true # Copyright of theme and framework
 
 # aside (側邊欄)
@@ -272,24 +272,9 @@ aside:
       link: "https://github.com/xiryg"
 
   card_announcement:
-      enable: true
-      content:
-      - "<div style='border: 1px solid #e41d97; background-color: #e7cdcd; padding: 10px; border-radius: 10px; text-align: center; box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);'>
-          <div style='display: flex; align-items: center; margin-bottom: 10px;'>
-              <a href='https://xirygking.cloud/' target='_blank' style='color: #220019; display: flex; align-items: center; text-decoration: none;'>
-                  <img src='/img/logo_transparent.png' alt='域名1' style='width: 24px; height: 24px; margin-right: 5px;'>
-                  <span style='font-weight: bold;'>网址(1)(coding)(还行)</span>
-              </a>
-          </div>
-          <div style='display: flex; align-items: center; margin-bottom: 10px;'>
-              <a href='https://www.xirygblog.top/' target='_blank' style='color: #220019; display: flex; align-items: center; text-decoration: none;'>
-                  <img src='/img/logo_transparent.png' alt='域名2' style='width: 24px; height: 24px; margin-right: 5px;'>
-                  <span style='font-weight: bold;'>网址(2)(github pages)(勉强)</span>
-              </a>
-          </div>
-          <p style='margin-top: 10px; color: #e41d97; font-weight: bold;'>如遇卡顿，请换网址，也许都卡</p>
-      </div>"
-      - "<p style='text-align: center; margin-top: 10px; color: #2c7999;'>随缘更新，有问题联系我！！！</p>"
+    enable: true
+    content:
+      争取一周写两篇了！！！
 
 
   card_recent_post:
@@ -658,10 +643,10 @@ google_adsense:
 # --------------------------------------
 
 site_verification:
-  # - name: google-site-verification
-  #   content: xxxxxx
-  # - name: baidu-site-verification
-  #   content: xxxxxxx
+# - name: google-site-verification
+#   content: xxxxxx
+# - name: baidu-site-verification
+#   content: xxxxxxx
 
 # Beautify/Effect (美化/效果)
 # --------------------------------------
@@ -800,8 +785,8 @@ beautify:
 # Global font settings
 # Don't modify the following settings unless you know how they work (非必要不要修改)
 font:
-  global-font-size: 
-  code-font-size: 
+  global-font-size:
+  code-font-size:
   font-family: Montserrat, "Segoe UI", "Helvetica Neue", Lato, Roboto, "PingFang SC", "Microsoft JhengHei", "Microsoft YaHei", sans-serif
   code-font-family: Hack, Inconsolata ,consolas, Menlo, "PingFang SC", "Microsoft JhengHei", "Microsoft YaHei", sans-serif
 
@@ -840,6 +825,7 @@ subtitle:
     - 立于皓月之边，不弱星光之势
     - 不语  不忘  不念
     - 恰似人间惊鸿客，墨染星辰云水间
+    - 心不死则道不生，欲不灭则道不存
 # Loading Animation (加載動畫)
 preloader:
   enable: true
@@ -920,7 +906,7 @@ note:
 pjax:
   enable: true
   exclude:
-    # - xxxx
+  # - xxxx
 
 # Inject the css and script (aplayer/meting)
 aplayerInject:
@@ -971,13 +957,13 @@ lazyload:
 Open_Graph_meta:
   enable: true
   option:
-    # twitter_card:
-    # twitter_image:
-    # twitter_id:
-    # twitter_site:
-    # google_plus:
-    # fb_admins:
-    # fb_app_id:
+  # twitter_card:
+  # twitter_image:
+  # twitter_id:
+  # twitter_site:
+  # google_plus:
+  # fb_admins:
+  # fb_app_id:
 
 
 
@@ -1005,7 +991,7 @@ inject:
     - <script data-pjax defer>new ChucklePostAI({el:'#post>#article-container',key:'5fb5145dc8f0051e77c9',rec_method:'web',title_el:'.post-title',interface:{name:'xiryg-AI',introduce:'我是文章辅助AI:xiryg-AI，点击下方的按钮，让我生成本文简介、推荐相关文章等.'},})</script>
     - <script src="/js/jquery.js"></script>
     - <script src="/js/foot.js"></script>
-    # - <script async src="https://npm.elemecdn.com/tzy-blog/lib/js/other/sakura.js"></script>
+    - <script async src="https://npm.elemecdn.com/tzy-blog/lib/js/other/sakura.js"></script>
     # - <script defer data-pjax src="/js/cat.js"></script>
 
 
