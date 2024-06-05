@@ -19,8 +19,8 @@ url: https://www.xirygblog.top
 root: /
 
   # permalink_defaults:
-  # pretty_urls:
-  #   trailing_index: true # Set to false to remove trailing 'index.html' from permalinks
+# pretty_urls:
+#   trailing_index: true # Set to false to remove trailing 'index.html' from permalinks
 #   trailing_html: true # Set to false to remove trailing '.html' from permalinks
 # Artitalk
 # see https://artitalk.js.org/
@@ -108,7 +108,8 @@ githubcalendar:
   pc_minheight: 280px
   mobile_minheight: 0px
   # 贡献统计的梯度色卡值，可自行调整
-  color: "['#ebedf0', '#a2f7af', '#6ce480', '#54ad63', '#469252', '#31753c', '#1f5f2a', '#13531f', '#084111', '#032b09', '#000000']"
+  color: "['#ebedf0', '#fdcdec', '#fc9bd9', '#fa6ac5', '#f838b2', '#f5089f', '#c4067e', '#92055e', '#540336', '#48022f', '#30021f']"
+  #  color: "['#ebedf0', '#a2f7af', '#6ce480', '#54ad63', '#469252', '#31753c', '#1f5f2a', '#13531f', '#084111', '#032b09', '#000000']"
   # 推荐填写你自建的API接口，方法详见本插件配套Python后端 https://github.com/Barry-Flynn/python_github_calendar_api
   api: https://github-calendar-api.meta-code.top/api
   # 推荐下载后使用本地文件
@@ -136,7 +137,7 @@ swiper:
 #
 history_calendar:
   priority: 4
-  enable: true
+  enable: false
   enable_page: all
   layout:
     type: class
