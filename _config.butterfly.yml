@@ -174,7 +174,7 @@ post_copyright:
 
 # Sponsor/reward
 reward:
-  enable: true
+  enable: false
   QR_code:
     - img: https://xirygking.cloud/img/weixin.jpg
       link:
@@ -936,10 +936,11 @@ pangu:
 # Lazyload (圖片懶加載)
 # https://github.com/verlok/vanilla-lazyload
 lazyload:
-  enable: true
+  enable: false
   field: post # site/post
   placeholder:
   blur: true
+
 
 # PWA
 # See https://github.com/JLHwung/hexo-offline
