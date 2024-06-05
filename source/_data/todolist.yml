@@ -1,66 +1,70 @@
 - class_name: Desired Projects
   seat: left
   todo_list:
-    - content: 新闻聚合分析
+    - content: 苍穹外卖
+      completed: true
+    - content: 黑马点评
+      completed: true
+    - content: 12306(阉割版)
+      completed: true
+    - content: 自制项目···
       completed: false
-    - content: 待办事项应用
-      completed: false
-    - content: 数据分析与可视化
-      completed: false
-    - content: 天气预报(简易)
-      completed: false  
 
 - class_name: Books to read
   seat: left
   todo_list:
-    - content: 张爱玲:《倾城之恋》
+    - content: 《金閣寺》
+      completed: true
+    - content: 《仮面の告白》
+      completed: true
+    - content: 《潮騒》
+      completed: true
+    - content: 《挪威的森林》
+      completed: true
+    - content: 《失乐园》《男人这东西》
       completed: false
-    - content: 马格利特·杜拉斯:《情人》
+    - content: 《安娜·卡列尼娜》
       completed: false
-    - content: 考林·麦卡洛:《荆棘鸟》
+    - content: 《飘》
       completed: false
-    - content: 村上春树:《挪威的森林》
-      completed: false
-    - content: 渡边淳一:《失乐园》《男人这东西》
-      completed: false
-    - content: 列夫·托尔斯泰:《安娜·卡列尼娜》
-      completed: false
-    - content: 玛格丽特·米切尔:《飘》
-      completed: false
-    - content: 米兰·昆德拉:《母爱中不能承受之轻》
-      completed: false
-    - content: 雨果:《悲惨世界》
-      completed: false
-    - content: 霍桑:《红字》
-      completed: false
-    - content: 曹禺:《雷雨》
-      completed: false
-    - content: 帕斯捷尔纳克:《日瓦戈医生》
-      completed: false
-    - content: 海伦·凯勒:《假如给我两周光明》
-      completed: false
-    - content: 西奥多·德莱塞:《珍妮姑娘》
+    - content: 《太陽と鉄》
+      completed: true
+    - content: 《悲惨世界》
+      completed: true
+    - content: 《命运》
+      completed: true
+    - content: 《蓝玫瑰不会安眠》
+      completed: true
+    - content: 《长日无尽》
+      completed: true
+    - content: 《愛の渇き》
+      completed: true
+    - content: 《明亮的夜晚》
       completed: false
 
 - class_name: Technologies to Learn
   seat: right
   todo_list:
     - content: HTML/CSS
-      completed: false
+      completed: true
     - content: JavaScript
-      completed: false
+      completed: true
     - content: React
       completed: false
     - content: Vue.js
       completed: false
-    - content: 数据库
-      completed: false
+    - content: MySQL
+      completed: true
     - content: Python
-      completed: false
+      completed: true
     - content: Java
+      completed: true
+    - content: SSM
       completed: false
     - content: C/C++
-      completed: false
+      completed: true
+    - content: Linux
+      completed: true
     - content: 机器学习
       completed: false
     - content: 深度学习
@@ -69,11 +73,17 @@
 - class_name: Places to Visit
   seat: right
   todo_list:
-    - content: 北京
+    - content: 黄山
       completed: true
-    - content: 杭州
+    - content: 庐山
+      completed: true
+    - content: 泰山
+      completed: true
+    - content: 华山
+      completed: true
+    - content: 武功山
+      completed: true
+    - content: 峨眉山
+      completed: true
+    - content: 长白山
       completed: false
-    - content: 西安
-      completed: false
-    - content: 河西走廊
-      completed: false      
