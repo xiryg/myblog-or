@@ -98,7 +98,7 @@ markdown_it_plus:
 # 贡献度热力图插件 https://github.com/Barry-Flynn/hexo-github-calendar
 githubcalendar:
   enable: true        # 是否启用本插件
-  enable_page: /about/      # 要生效的页面，如 / 首页，/about/ 介绍页等
+  enable_page: /     # 要生效的页面，如 / 首页，/about/ 介绍页等
   user: xiryg   # GitHub 用户名
   layout:
     type: id
@@ -127,7 +127,7 @@ swiper:
   layout: # 挂载容器类型
     type: id
     name: recent-posts
-    index: 1
+    index: 10
   default_descr: 再怎么看我也不知道怎么描述它的啦！
   swiper_css: https://npm.elemecdn.com/hexo-butterfly-swiper/lib/swiper.min.css #swiper css依赖
   swiper_js: https://npm.elemecdn.com/hexo-butterfly-swiper/lib/swiper.min.js #swiper js依赖
