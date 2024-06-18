@@ -4,7 +4,6 @@ tags: python
 cover: 'https://img.tucang.cc/api/image/show/f3569f9efe878dd67ce35aad871f7b99'
 description: python四大数据类型
 categories: python
-swiper_index: 11
 abbrlink: '56639862'
 date: 2023-11-02 22:40:48
 ---

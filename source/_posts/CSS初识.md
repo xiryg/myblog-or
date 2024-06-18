@@ -4,7 +4,6 @@ tags: css
 categories: 前端
 description: css样式的基本了解与拓展
 cover: 'https://img.tucang.cc/api/image/show/a9f4965cdfd2bc65d6f988ff7e282790'
-swiper_index: 11
 abbrlink: ca026353
 date: 2023-10-06 23:28:06
 ---

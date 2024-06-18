@@ -2,7 +2,6 @@
 title: pandas基础复习2
 cover: 'https://img.tucang.cc/api/image/show/05831d79b95033d45f5319c1f9f4bab9'
 description: pandas基础复习2-进阶操作整理
-swiper_index: 9
 tags: 'pandas, 数据分析'
 categories: 数据分析
 abbrlink: 1207525a
