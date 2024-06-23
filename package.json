@@ -14,6 +14,7 @@
   "dependencies": {
     "@barry-flynn/hexo-github-calendar": "^1.0.4",
     "@paralleldrive/cuid2": "^2.2.2",
+    "@renbaoshuo/markdown-it-katex": "^2.0.2",
     "@upupming/hexo-renderer-markdown-it-plus": "^2.0.2",
     "cheerio": "^1.0.0-rc.12",
     "chokidar": "^3.5.3",
@@ -38,13 +39,15 @@
     "hexo-generator-tag": "^2.0.0",
     "hexo-history-calendar": "^1.0.3",
     "hexo-renderer-ejs": "^2.0.0",
+    "hexo-renderer-markdown-it": "^7.1.1",
     "hexo-renderer-pug": "^3.0.0",
     "hexo-renderer-stylus": "^2.1.0",
     "hexo-server": "^3.0.0",
     "hexo-tag-aplayer": "^3.0.4",
     "hexo-theme-landscape": "^1.0.0",
     "hexo-wordcount": "^6.0.1",
-    "highlight.js": "^11.8.0"
+    "highlight.js": "^11.8.0",
+    "katex": "^0.16.10"
   },
   "devDependencies": {
     "gulp-cssnano": "^2.1.3",

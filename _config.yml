@@ -42,6 +42,9 @@ code_dir: downloads/code
 i18n_dir: :lang
 skip_render:
 
+markdown:
+  plugins:
+    - '@renbaoshuo/markdown-it-katex'
 # Markdown config
 markdown_it_plus:
   render:
@@ -60,15 +63,15 @@ markdown_it_plus:
     permalinkSide: 'left'
     permalinkSymbol: ¶
 
-# # math
-# kramed:
-#   gfm: true
-#   pedantic: false
-#   sanitize: false
-#   tables: true
-#   breaks: true
-#   smartLists: true
-#   smartypants: true
+ # math
+kramed:
+  gfm: true
+  pedantic: false
+  sanitize: false
+  tables: true
+  breaks: true
+  smartLists: true
+  smartypants: true
 # Ice Kano Plus_in
 # Hexo Github Canlendar
 # Author: Ice Kano
